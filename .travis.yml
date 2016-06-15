@@ -22,3 +22,5 @@ xcode_sdk: iphonesimulator10.0
 install: true
 dist: osx
 os: osx
+before_install:  # to fix xctool issue since Xcode 7.3
+- brew uninstall xctool && brew install --HEAD xctool
