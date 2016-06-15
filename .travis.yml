@@ -16,6 +16,8 @@
 
 language: objective-c
 osx_image: xcode8
+xcode_project: SwiftyBeaver.xcodeproj
+xcode_scheme: SwiftyBeaver (iOS)
 xcode_sdk: iphonesimulator8.4
 install: true
 dist: osx
